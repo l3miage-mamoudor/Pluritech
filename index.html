@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pluritech</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #034e7b;
+      --secondary: #1cabe4;
+      --text-dark: #333;
+      --bg-light: #fff;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    .qualities {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .quality {
+      text-align: center;
+      background: var(--secondary);
+      color: white;
+      padding: 1rem;
+      border-radius: 10px;
+      flex: 1;
+    }
+    footer {
+      background-color: var(--primary);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--secondary);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pluritech</h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#services">Nos activités</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="section" id="about">
+    <h2>Qui sommes-nous ?</h2>
+    <p>
+      Pluritech est une entreprise multidisciplinaire spécialisée dans les secteurs du BTP, de l'hydraulique, de l'informatique, de la sécurité électronique et de la vidéosurveillance. Grâce à notre approche centrée sur la qualité et notre passion pour l'innovation, nous proposons des solutions sur mesure adaptées aux besoins de nos clients professionnels et particuliers.
+    </p>
+    <div class="qualities">
+      <div class="quality">Expertise technique</div>
+      <div class="quality">Solutions sur mesure</div>
+      <div class="quality">Engagement qualité</div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Nos domaines d’activités</h2>
+    <ul>
+      <li><strong>BTP & Hydraulique :</strong> Construction, réhabilitation, réseaux hydrauliques.</li>
+      <li><strong>Informatique & Sécurité :</strong> Intégration de solutions IT, vidéosurveillance, contrôle d’accès, sécurité incendie.</li>
+      <li><strong>Commerce & Services :</strong> Fourniture de matériel, maintenance, approvisionnement technique et services logistiques.</li>
+    </ul>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Pour toute demande de devis, collaboration ou information complémentaire :</p>
+    <p><strong>Email :</strong> contact@pluritech-sarl.com</p>
+    <p><strong>Alternative :</strong> pluritechsarl@gmail.com</p>
+    <a href="mailto:contact@pluritech-sarl.com" class="btn">Nous contacter</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Pluritech SARL. Tous droits réservés.
+  </footer>
+</body>
+</html>
